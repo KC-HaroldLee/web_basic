@@ -1,0 +1,30 @@
+<style>
+    @media (max-width:600px){
+        p{
+            background-color:pink;
+        }
+        .large{
+            display: none;
+        }
+        .small{
+            display: block;
+        }
+    }
+
+    @media (min-width:600px){
+        p{
+            background-color:skyblue;
+        }
+        .large{
+            display: block;
+        }
+        .small{
+            display: none;
+        }
+    }
+</style>
+<img class="small" src="../image/03.png" height="100px">
+<p>
+    화면에 어떻게 표시되나요
+</p>
+<img class="large" src="../image/03.png" height="100px">
