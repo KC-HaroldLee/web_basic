@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<script>
+    function change_radius()
+    {
+        let image = document.querySelector("#image")
+        let radius_value = document.querySelector("#radius_slider").value
+        console.log("현재 radius_value >>>", radius_value)
+        image.style.borderRadius = radius_value+"%"
+    }
+
+</script>
+<body>
+    <img id="image" src="./profile.jpg" alt="radius_test" style="border-radius: 50%;">
+    <input type="range" id="radius_slider" value="50" min="-100" max="100" onchange=change_radius()>
+</body>
+</html>
