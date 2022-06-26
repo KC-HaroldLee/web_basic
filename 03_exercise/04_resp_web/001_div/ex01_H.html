@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+    <style>
+        div{border: 1px dotted red;}
+        #container{
+            display: flex;
+        }
+
+        #content{
+            width: 50%;
+            text-align: center;
+        }
+
+        #content img{
+            width: 65%;
+        }
+
+        /*작은 화면*/
+        @media(max-width:800px){
+            #content{
+                background-color: aqua;
+                width: 100%;
+                text-align: center;
+            }
+
+            #left-side{
+                width: 0%;
+            }
+
+            #right-side{
+                width: 0%;
+            }
+
+        }
+
+        /*큰 화면*/
+        @media(min-width:801px){
+            #content{
+                background-color: dimgray;
+                width: 50%;
+                text-align: center;
+            }
+
+            #left-side{
+                width: 25%;
+            }
+
+            #right-side{
+                width: 25%;
+            }
+
+        }
+
+    </style>
+<body>
+    <div id="container">
+        <div id="left-side">(왼쪽)</div>
+        <div id="content">
+            <img src="image/logo.png">
+        </div>
+        <div id="right-side">(오른쪽)</div>
+    </div>
+</body>
+</html>

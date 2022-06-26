@@ -1,0 +1,241 @@
+div{border: 1px red dotted;}
+
+body{
+    position: relative;
+    height: 100%;
+}
+
+a{
+    color : black;
+    text-decoration: none;
+}
+
+.anchor:hover{
+    text-decoration: underline;
+}
+
+.top-zone{
+    height: 50px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-zone .left-side{
+    float: left;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-zone .right-side{
+    float: left;
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-zone .right-side .apps-container{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.top-zone .right-side .apps-container:hover{
+    background-color: #ededed;
+}
+
+.top-zone .right-side .login-btn{
+    height: 75%;
+    width: 100px;
+    background-color: #1a73e8;
+    font-size: 14px;
+    color : white;
+    border: white 0px none;
+    border-radius: 6px;
+}
+
+.top-zone .right-side .login-btn:hover{
+    background-color: #dfdfdf;
+    color :black;
+}
+
+.top-zone .box{
+    height: auto;
+    margin: 0px 5px;
+    line-height: 48px;
+    font-size: 14px;
+}
+
+.logo-zone{
+    height: 30vh;
+    display: flex;
+    text-align: center;
+}
+
+.logo-zone .logo-container{
+    display: inline-block;
+    align-self: flex-end;
+    margin: 0 auto;
+}
+
+.logo-zone .logo-container .logo-img{
+    
+}
+
+.search-zone .input-area{
+    padding: 20px;
+    display: flex;
+}
+
+.search-zone .input-area .search-externel-border{
+    margin: 0px auto;
+    width: 45vw;
+    height: 50px;
+    border: silver solid 1px;
+    border-radius: 24px;
+}
+
+.search-zone .input-area .search-externel-border:hover{
+    box-shadow: 0px 4px 4px 0px #e3e3e3;
+}
+
+
+.search-zone .input-area .search-box{
+    margin-top: 3px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.search-zone .input-area .search-box .left-side{
+    float: left;
+    width: 86vw;
+    display: flex;
+    justify-content: baseline;
+}
+
+.search-zone .input-area .left-side .input-container{
+    display: flex;
+    flex: 1;
+}
+
+.search-zone .input-area .left-side input{
+    background-color: #ffffff00;
+    display: flex;
+    flex: 80%;
+    height: 44px;
+    border: 0px none;
+    margin-left: 10px;
+    font-size: 14pt;
+}
+
+.search-zone .input-area input:focus{
+    outline: none;
+}
+
+
+.search-zone .input-area .search-box .right-side{
+    float: right;
+    width: 14vw;
+    display: flex;
+    margin: 0px;
+    justify-content: baseline;
+}
+
+.search-zone .input-area .search-box .left-side .box{
+    height: auto;
+    width: max-content;
+    margin: 0px 10px;
+    line-height: 41px;
+    font-size: 23px;
+}
+
+.search-zone .input-area .search-box .right-side .box{
+    height: auto;
+    width: max-content;
+    margin: 0px 10px;
+    line-height: 41px;
+    font-size: 23px;
+}
+
+.search-zone .other-btn-area{
+    padding-top: 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.search-zone .other-btn-area .btn-container{
+
+}
+
+.search-zone .other-btn-area .btn-container .other-btn{
+    margin: 0 8px;
+    padding: 12px 10px;
+    height: 100%;
+    width: auto;
+    background-color: #dadada;
+    font-size: 14px;
+    border: white 0px none;
+    border-radius: 6px;
+}
+
+.search-zone .other-btn-area .btn-container .other-btn:hover{
+    border: black 1px solid;
+}
+
+.bottom-zone{
+    position : fixed;
+    left: 0;
+    right:0;
+    bottom : 0;
+    width: auto;
+    height: 95px;
+    background-color: #dadada;
+}
+
+.bottom-zone .loca-area{
+    height: 35px;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.bottom-zone .loca-area .loca-text{
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.bottom-zone .info-area{
+    height: 47px;
+    width: auto;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 45px;
+    font-size: 14px;
+}
+
+.bottom-zone .info-area .info-text{
+
+}
+
+.bottom-zone .info-area .left-side{
+    float: left;
+    width: 275px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+}
+
+.bottom-zone .info-area .right-side{
+    float: left;
+    width: 275px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 15%;
+}
+
+.bottom-zone .info-link{
+    padding: 0px 10px;
+}
