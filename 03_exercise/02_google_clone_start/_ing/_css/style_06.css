@@ -1,0 +1,13 @@
+div {border: red dotted 1px;}
+
+.top-zone{
+    display: flex;
+}
+
+.top-zone .left-side{
+    display: flex;
+}
+
+.top-zone .right-side{
+    display: flex;
+}
