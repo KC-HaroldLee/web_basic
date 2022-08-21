@@ -13,7 +13,7 @@ div {border: red dotted 1px;}
     display: flex;
 }
 
-.top-zone .left-side div{
+.left-side div{
     padding-left: 14px;
     padding-right: 14px;
     padding-top: 7px;

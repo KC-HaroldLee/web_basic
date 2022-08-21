@@ -68,7 +68,8 @@ div {border: red dotted 1px;}
     height: 35px;
     width: 45vw;
     border-radius: 25px;
-    border : gray 1px solid;
+    border : gray 2px solid;
+    /* outline-offset: -10px */
 }
 
 .search-zone .btn-area{

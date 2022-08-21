@@ -1,6 +1,4 @@
-/*
 div {border: red dotted 1px;}
-*/
 
 .top-zone{
     display: flex;
@@ -82,10 +80,15 @@ div {border: red dotted 1px;}
 .search-zone .btn-area button{
     margin: 0 8px;
     padding: 12px 10px;
-    /* height: 100%; */
-    /* width: auto; */
+    height: 100%;
+    width: auto;
     background-color: #dadada;
     font-size: 14px;
     border: white 0px none;
     border-radius: 6px;
 }
+
+.bottom-zone {
+    /**/
+}
+
